@@ -1,4 +1,4 @@
-## Switch DaySkipper
+# Switch DaySkipper
 Switch DaySkipper is code based off of bertrandom's snowball thrower, but modified to skip a given amount of days in the switch system to perform glitches across all sorts of games. **However, note that currently it is tuned to the _mm/dd/yy_ format, I know it's dumb, and I am working on adding the _dd/mm/yy_ format.**
 
 ### How to use:
@@ -12,10 +12,10 @@ Unlike the Wii U, which handles these controllers on a 'per-game' basis, the Swi
 The original version of the code that this repo is based off of emulated the Pokken Tournament Pro Pad, but changes have been made to support the HORIPAD wired controller for Nintendo Switch instead. In addition, many additional features/improvements have been added.
 
 ### Setup
-Prerequisites
-A LUFA-compatible microcontroller such as the Teensy 2.0++, Arduino UNO R3, or the Arduino Micro
-A USB-to-UART adapter. In a pinch, an Arduino UNO R3 with the ATMega328p disabled (connect RESET to GND) will work.
-A machine running Linux or MacOS. Currently there are issues running under Windows.
+#### Prerequisites
+* A LUFA-compatible microcontroller such as the Teensy 2.0++, Arduino UNO R3, or the Arduino Micro
+A USB-to-UART adapter.* In a pinch, an Arduino UNO R3 with the ATMega328p disabled (connect RESET to GND) will work.
+* A machine running Linux or MacOS. Currently there are issues running under Windows.
 Compiling and Flashing onto the Teensy 2.0++
 Go to the Teensy website and download/install the Teensy Loader application. For Linux, follow their instructions for installing the GCC Compiler and Tools. For Windows, you will need the latest AVR toolchain from the Atmel site. See this issue and this thread on GBAtemp for more information. (Note for Mac users - the AVR MacPack is now called AVR CrossPack. If that does not work, you can try installing avr-gcc with brew.)
 
