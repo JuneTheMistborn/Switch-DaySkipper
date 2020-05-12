@@ -2,6 +2,7 @@
 Switch DaySkipper is code based off of bertrandom's snowball thrower, but modified to skip a given amount of days in the switch system to perform glitches across all sorts of games. **However, note that currently it is tuned to the _mm/dd/yy_ format, I know it's dumb, and I am working on adding the _dd/mm/yy_ format.**
 
 ### How to use:
+#### Setting
 Just navigate to the switch's Date and Time settings under System Settings>System>Date and Time (note that you must first turn off the Synchronize Clock via Internet option in Date and Time). Next, click on the Date and Time option, and change the month to January. Finally, navigate to the ok button, and make sure that it is highlighted, plug the controller in (directly to the switch or through the dock) and it should start skipping days.
 
 ## Wait, what?
