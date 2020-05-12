@@ -1,6 +1,8 @@
 # Switch DaySkipper
 Switch DaySkipper is code based off of bertrandom's snowball thrower, but modified to skip a given amount of days in the switch system to perform glitches across all sorts of games. **However, note that currently it is tuned to the _mm/dd/yy_ format, I know it's dumb, and I am working on adding the _dd/mm/yy_ format.**
 
+## Important: **The system does _not_ currently work with numbers exceeding 30,000, I am working on figuring out a solution**
+
 ### How to use:
 #### Setting the # of days you skip
 Simply go into the Joystick.c file, find the variable at the top that is called "wantDaysSkip" and modify that line to int wantDaysSkip = (number of days you want to skip);
