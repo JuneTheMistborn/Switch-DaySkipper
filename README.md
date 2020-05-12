@@ -17,7 +17,7 @@ The original version of the code that this repo is based off of emulated the Pok
 A USB-to-UART adapter.
 * In a pinch, an Arduino UNO R3 with the ATMega328p disabled (connect RESET to GND) will work.
 * A machine running Linux or MacOS. Currently there are issues running under Windows.
-Compiling and Flashing onto the Teensy 2.0++
+##### Compiling and Flashing onto the Teensy 2.0++
 Go to the Teensy website and download/install the Teensy Loader application. For Linux, follow their instructions for installing the GCC Compiler and Tools. For Windows, you will need the latest AVR toolchain from the Atmel site. See this issue and this thread on GBAtemp for more information. (Note for Mac users - the AVR MacPack is now called AVR CrossPack. If that does not work, you can try installing avr-gcc with brew.)
 
 Next, you need to grab the LUFA library. You can download it in a zipped folder at the bottom of this page. Unzip the folder, rename it LUFA, and place it where you like. Then, download or clone the contents of this repository onto your computer. Next, you'll need to make sure the LUFA_PATH inside of the makefile points to the LUFA subdirectory inside your LUFA directory. My Switch-Fightstick directory is in the same directory as my LUFA directory, so I set LUFA_PATH = ../LUFA/LUFA.
