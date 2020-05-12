@@ -1,16 +1,16 @@
-### Switch DaySkipper
-Switch DaySkipper is code based off of bertrandom's snowball thrower, but modified to skip a given amount of days in the switch system to perform glitches across all sorts of games. **However, note that currently it is tuned to the __mm/dd/yy__ format, I know it's dumb, and I am working on adding the __dd/mm/yy__ format.**
+## Switch DaySkipper
+Switch DaySkipper is code based off of bertrandom's snowball thrower, but modified to skip a given amount of days in the switch system to perform glitches across all sorts of games. **However, note that currently it is tuned to the _mm/dd/yy_ format, I know it's dumb, and I am working on adding the _dd/mm/yy_ format.**
 
-How to use: Just navigate to the switch's Date and Time settings under System Settings>System>Date and Time (note that you must first turn off the Synchronize Clock via Internet option in Date and Time). Next, click on the Date and Time option, and change the month to January. Finally, navigate to the ok button, and make sure that it is highlighted, plug the controller in (directly to the switch or through the dock) and it should start skipping days.
+### How to use: Just navigate to the switch's Date and Time settings under System Settings>System>Date and Time (note that you must first turn off the Synchronize Clock via Internet option in Date and Time). Next, click on the Date and Time option, and change the month to January. Finally, navigate to the ok button, and make sure that it is highlighted, plug the controller in (directly to the switch or through the dock) and it should start skipping days.
 
-Wait, what?
+## Wait, what?
 On June 20, 2017, Nintendo released System Update v3.0.0 for the Nintendo Switch. Along with a number of additional features that were advertised or noted in the changelog, additional hidden features were added. One of those features allows for the use of compatible USB controllers on the Nintendo Switch, such as the Pokken Tournament Pro Pad.
 
 Unlike the Wii U, which handles these controllers on a 'per-game' basis, the Switch treats the Pokken controller as if it was a Switch Pro Controller. Along with having the icon for the Pro Controller, it functions just like it in terms of using it in other games, apart from the lack of physical controls such as analog sticks, the buttons for the stick clicks, or other system buttons such as Home or Capture.
 
 The original version of the code that this repo is based off of emulated the Pokken Tournament Pro Pad, but changes have been made to support the HORIPAD wired controller for Nintendo Switch instead. In addition, many additional features/improvements have been added.
 
-Setup
+### Setup
 Prerequisites
 A LUFA-compatible microcontroller such as the Teensy 2.0++, Arduino UNO R3, or the Arduino Micro
 A USB-to-UART adapter. In a pinch, an Arduino UNO R3 with the ATMega328p disabled (connect RESET to GND) will work.
