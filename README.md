@@ -5,7 +5,7 @@ Switch DaySkipper is code based off of bertrandom's snowball thrower, but modifi
 #### Setting the # of days you skip
 Simply go into the Joystick.c file, find the variable at the top that is called "wantDaysSkip" and modify that line to int wantDaysSkip = (number of days you want to skip);
 #### Actually using it
-Just navigate to the switch's Date and Time settings under System Settings>System>Date and Time (note that you must first turn off the Synchronize Clock via Internet option in Date and Time). Next, click on the Date and Time option, and change the month to January. Finally, navigate to the ok button, and make sure that it is highlighted, plug the controller in (directly to the switch or through the dock) and it should start skipping days.
+Just navigate to the switch's Date and Time settings under System Settings>System>Date and Time (note that you must first turn off the Synchronize Clock via Internet option in Date and Time). Next, click on the Date and Time option, and ***change the month and day to January 1st***. Finally, navigate to the ok button, and make sure that it is highlighted, plug the controller in (directly to the switch or through the dock) and it should start skipping days.
 
 ## Wait, what?
 On June 20, 2017, Nintendo released System Update v3.0.0 for the Nintendo Switch. Along with a number of additional features that were advertised or noted in the changelog, additional hidden features were added. One of those features allows for the use of compatible USB controllers on the Nintendo Switch, such as the Pokken Tournament Pro Pad.
