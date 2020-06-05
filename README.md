@@ -3,7 +3,7 @@ Switch DaySkipper is code based off of bertrandom's snowball thrower, but modifi
 
 ### How to use:
 #### Setting the # of days you skip
-Simply go into the Joystick.c file, find the variable at the top that is called "wantDaysSkip" and modify that line to int wantDaysSkip = (number of days you want to skip);
+Simply go into the Joystick.c file, find the variable at the top that is called "wantDaysSkip" and modify that line to "long wantDaysSkip = (number of days you want to skip)";
 #### Actually using it
 Just navigate to the switch's Date and Time settings under System Settings>System>Date and Time (note that you must first turn off the Synchronize Clock via Internet option in Date and Time). Next, click on the Date and Time option, and ***change the month and day to January 1st***. Finally, navigate to the ok button, and make sure that it is highlighted, plug the controller in (directly to the switch or through the dock) and it should start skipping days.
 
