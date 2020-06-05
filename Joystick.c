@@ -20,8 +20,8 @@ these buttons for our use.
 
 #include "Joystick.h"
 
-int wantSkipDays = 5;
-int totalDaysSkip = 0;
+long wantSkipDays = 5;
+long totalDaysSkip = 0;
 
 typedef enum {
 	UP,
@@ -65,8 +65,8 @@ int main(void) {
 	GlobalInterruptEnable();
 
 	totalDaysSkip = wantSkipDays;
-	int addDays = wantSkipDays / 31;
-	int daysIntoMonth = wantSkipDays % 31;
+	long addDays = wantSkipDays / 31;
+	long daysIntoMonth = wantSkipDays % 31;
 	while(addDays >= 1) {
 		totalDaysSkip += addDays;
 		daysIntoMonth += addDays % 31;
