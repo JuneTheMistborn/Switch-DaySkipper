@@ -99,7 +99,7 @@ Now you should be ready to rock. Open a terminal window in the Switch-Fightstick
 
 26. Next, open up flip, press ctrl+u, then enter. 
 
-27. Then press ctrl+l and in the window it brings up navigate to the dayskipper folder, and double click on the joystick.hex file.
+27. Then press ctrl+l and in the window it brings up navigate to the Switch-DaySkipper-Master folder, and double click on the joystick.hex file.
 
 28. Finally press run, and it is ready to go!
 
