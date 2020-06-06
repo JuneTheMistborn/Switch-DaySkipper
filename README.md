@@ -45,7 +45,7 @@ Now you should be ready to rock. Open a terminal window in the Switch-Fightstick
 
 2. Download the above files and extract them into your premade folder (you may want to create a copy so you don't have to download the files everytime you want to change the days skipped).
 
-2. Extract the LUFA zip into the folder you created (not the Switch-DaySkipper directory you just downloaded). 
+2. One of the files that you just extracted is lufa-LUFA-170418.zip, extract it into the folder you created (not the Switch-DaySkipper directory from what you just downloaded). 
 
 3. Now you must download mingw32 from here: http://osdn.net/projects/mingw/downloads/68260/mingw-get-setup.exe/ (it will auto download when you click on the link).
 
