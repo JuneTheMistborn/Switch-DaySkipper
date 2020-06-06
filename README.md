@@ -41,8 +41,8 @@ Now you should be ready to rock. Open a terminal window in the Switch-Fightstick
 
 #### Compiling and Flashing onto the Arduino UNO R3
 ###### You need:
-* An arduino uno r3
-* A cable to connect the uno to the computer and switch
+* An arduino UNO R3
+* A cable to connect the UNO to the computer and switch
 * A jumper wire
 ##### My experience (windows):
 
