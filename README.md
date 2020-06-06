@@ -71,9 +71,9 @@ Now you should be ready to rock. Open a terminal window in the Switch-Fightstick
 
 15. After you bring up another menu, click on the "new" button and then ctrl+v (paste) into the text box that is brought up.
 
-16. After that make sure to press ok in all the menus, then install Atmel Flip from here: https://www.microchip.com/DevelopmentTools/ProductDetails/PartNO/FLIP. 
+16. After that make sure to press ok in all the menus. 
 
-17. The link will take you to a website that has download options at the bottom, click on the download that says Java Runtime Environment included. 
+17. Now install Atmel Flip from here: https://www.microchip.com/DevelopmentTools/ProductDetails/PartNO/FLIP. The link will take you to a website that has download options at the bottom, click on the download that says Java Runtime Environment included. 
 
 18. Then run the file that is downloaded and move through the installer without changing anything. 
 
@@ -85,7 +85,7 @@ Now you should be ready to rock. Open a terminal window in the Switch-Fightstick
 
 22. Next click update driver and navigate to the driver you just installed and open it.
 
-23. After that, go to This PC>Local Disk (C:)>MinGW>bin and find the mingw32-make.exe file, shift right click and click copy as path.
+23. After that, go to This PC>Local Disk (C:)>MinGW>bin and find the mingw32-make.exe file, **shift right click** and click copy as path.
 
 24. Next, go to your folder with the dayskipper files in it, click on the bar with the path and type cmd. 
 
