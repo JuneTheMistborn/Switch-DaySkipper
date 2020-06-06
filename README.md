@@ -41,6 +41,10 @@ Now you should be ready to rock. Open a terminal window in the Switch-Fightstick
 
 #### Compiling and Flashing onto the Arduino UNO R3
 ##### My experience (windows):
+###### You need:
+*An arduino uno r3
+*A cable to connect the uno to the computer and switch
+*A jumper wire
 1. Create a folder where you are going to work with this project. 
 
 2. Download the above files and extract them into your premade folder (you may want to create a copy so you don't have to download the files everytime you want to change the days skipped).
@@ -79,11 +83,13 @@ Now you should be ready to rock. Open a terminal window in the Switch-Fightstick
 
 19. You're almost there! You need to install atmega16u2 drivers here: https://www.driverscape.com/download/atmega16u2 (click on the bottom download, the top one is an ad).
 
-20. Next extract the file (it doesn't matter where), then plug the arduino in, then connect the two pins closest to the reset button with a jumper cable.
+20. Next extract the file (it doesn't matter where).
 
-21. Then go to device manager>other devices and right click on unidentified device. 
+21. Then plug the arduino in, then connect the two pins closest to the reset button with a jumper cable.
 
-22. Next click update driver and navigate to the driver you just installed and open it.
+21. Then go to device manager>other devices and right click on unknown device. 
+
+22. Next click update driver and navigate to the driver you just installed and open it. You can close out device manager.
 
 23. After that, go to This PC>Local Disk (C:)>MinGW>bin and find the mingw32-make.exe file, **shift right click** and click copy as path.
 
