@@ -40,7 +40,7 @@ Next, you need to grab the LUFA library. You can download it in a zipped folder 
 Now you should be ready to rock. Open a terminal window in the Switch-Fightstick directory, type make, and hit enter to compile. If all goes well, the printout in the terminal will let you know it finished the build! Follow the directions on flashing Joystick.hex onto your Teensy, which can be found page where you downloaded the Teensy Loader application.
 
 #### Compiling and Flashing onto the Arduino UNO R3
-##### My experience:
+##### My experience (windows):
 1. Create a folder where you are going to work with this project. 
 
 2. Download the above files and extract them into your premade folder (you may want to create a copy so you don't have to download the files everytime you want to change the days skipped).
@@ -61,7 +61,7 @@ Now you should be ready to rock. Open a terminal window in the Switch-Fightstick
 
 10. Run the file you've downloaded and go through the installer without changing settings.
 
-11. Then travel to This PC>Local Disk (C:)>Program Files (x86)>Arduino>hardware>tools>avr, shift right click on bin, then press "copy as path".
+11. Using windows explorer, travel to This PC>Local Disk (C:)>Program Files (x86)>Arduino>hardware>tools>avr, shift right click on bin, then press "copy as path".
 
 12. After that, press the windows key (opens search bar on left of taskbar) and type "path". 
 
