@@ -18,7 +18,7 @@ long wantDaysSkip = (number of days you want to skip);
 
 4. Finally, navigate to the ok button, and make sure that it is highlighted, plug the controller in (directly to the switch or through the dock) and it should start skipping days.
 
-(these instructions are from the [project](https://github.com/bertrandom/snowball-thrower) I have borrowed this from.)
+(the following instructions are from the [project](https://github.com/bertrandom/snowball-thrower) I have forked this from.)
 ## Wait, what?
 On June 20, 2017, Nintendo released System Update v3.0.0 for the Nintendo Switch. Along with a number of additional features that were advertised or noted in the changelog, additional hidden features were added. One of those features allows for the use of compatible USB controllers on the Nintendo Switch, such as the Pokken Tournament Pro Pad.
 
