@@ -29,7 +29,10 @@ Next, you need to grab the LUFA library. You can download it in a zipped folder 
 Now you should be ready to rock. Open a terminal window in the Switch-Fightstick directory, type make, and hit enter to compile. If all goes well, the printout in the terminal will let you know it finished the build! Follow the directions on flashing Joystick.hex onto your Teensy, which can be found page where you downloaded the Teensy Loader application.
 
 #### Compiling and Flashing onto the Arduino UNO R3
+##### My experience:
+Firstly you need to create a folder where you are going to work with this project, then download the above files, and extract them into your premade folder. 
 
+##### Original instructions:
 You will need to set your Arduino in DFU mode, and flash its USB controller. (Note for Mac users - try brew to install the dfu-programmer with brew install dfu-programmer.) Setting an Arduino UNO R3 in DFU mode is quite easy, all you need is a jumper (the boards come with the needed pins in place). Please note that once the board is flashed, you will need to flash it back with the original firmware to make it work again as a standard Arduino. To compile this project you will need the AVR GCC Compiler and Tools. (Again for Mac users - try brew, adding the osx-cross/avr repository, all you need to do is to type brew tap osx-cross/avr and brew install avr-gcc.) Next, you need to grab the LUFA library: download and install it following the steps described for the Teensy 2.0++.
 
 Finally, open a terminal window in the Switch-InputEmulator directory, edit the makefile setting MCU = atmega16u2, and compile by typing make. Follow the DFU mode directions to flash Joystick.hex onto your Arduino UNO R3 and you are done.
