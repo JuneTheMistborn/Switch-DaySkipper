@@ -77,9 +77,9 @@ Now you should be ready to rock. Open a terminal window in the Switch-Fightstick
 
 18. Then run the file that is downloaded and move through the installer without changing anything. 
 
-19. You're almost there! You need to install some drivers here: https://www.driverscape.com/download/atmega16u2 (make sure not to click on the add!). 
+19. You're almost there! You need to install atmega16u2 drivers here: https://www.driverscape.com/download/atmega16u2 (click on the bottom download, the top one is an ad).
 
-20. Next extract the file, then plug the arduino in, then connect the two pins closest to the reset button with a jumper cable.
+20. Next extract the file (it doesn't matter where), then plug the arduino in, then connect the two pins closest to the reset button with a jumper cable.
 
 21. Then go to device manager>other devices and right click on unidentified device. 
 
