@@ -3,12 +3,22 @@ Switch DaySkipper is code based off of bertrandom's snowball thrower, but modifi
 
 ### How to use:
 #### Setting the # of days you skip
-You just have to go into the Joystick.c file, find the variable at the top that is called "wantDaysSkip" and modify that line to:
-long wantDaysSkip = (number of days you want to skip);
-#### Actually using it
-Just navigate to the switch's Date and Time settings under System Settings>System>Date and Time (note that you must first turn off the Synchronize Clock via Internet option in Date and Time). Next, click on the Date and Time option, and ***change the month and day to January 1st***. Finally, navigate to the ok button, and make sure that it is highlighted, plug the controller in (directly to the switch or through the dock) and it should start skipping days.
+1. Go into the Joystick.c file. 
 
-(these instructions are from the [project](https://github.com/bertrandom/snowball-thrower)I have borrowed this from.)
+2. Find the variable at the top that is called "wantDaysSkip" and modify that line to:
+long wantDaysSkip = (number of days you want to skip);
+
+3. Save the file.
+#### Actually using it
+1. Navigate to the switch's Date and Time settings under System Settings>System>Date and Time.
+
+2. Turn off the Synchronize Clock via Internet option in Date and Time.
+
+3. Next, click on the Date and Time option, and ***change the month and day to January 1st***.
+
+4. Finally, navigate to the ok button, and make sure that it is highlighted, plug the controller in (directly to the switch or through the dock) and it should start skipping days.
+
+(these instructions are from the [project](https://github.com/bertrandom/snowball-thrower) I have borrowed this from.)
 ## Wait, what?
 On June 20, 2017, Nintendo released System Update v3.0.0 for the Nintendo Switch. Along with a number of additional features that were advertised or noted in the changelog, additional hidden features were added. One of those features allows for the use of compatible USB controllers on the Nintendo Switch, such as the Pokken Tournament Pro Pad.
 
@@ -31,29 +41,61 @@ Now you should be ready to rock. Open a terminal window in the Switch-Fightstick
 
 #### Compiling and Flashing onto the Arduino UNO R3
 ##### My experience:
-1. You need to create a folder where you are going to work with this project, then download the above files and extract them into your premade folder (you may want to create a copy so you don't have to download the files everytime you want to change the days skipped).
+1. Create a folder where you are going to work with this project. 
+
+2. Download the above files and extract them into your premade folder (you may want to create a copy so you don't have to download the files everytime you want to change the days skipped).
 
 2. Extract the LUFA zip into the folder you created (not the Switch-DaySkipper directory you just downloaded). 
 
-3. Now you must download mingw32 from here: http://osdn.net/projects/mingw/downloads/68260/mingw-get-setup.exe/ (it will auto download when you click on the link), then you need to run the file that is downloaded. Go through the installer until you get to the installation manager, then click on the box next to mingw32-base-bin and click the "mark for installation" option, finally go to the installation tab in the top left and click "apply all changes" and then apply. 
+3. Now you must download mingw32 from here: http://osdn.net/projects/mingw/downloads/68260/mingw-get-setup.exe/ (it will auto download when you click on the link).
 
-4. Next go to https://www.arduino.cc/en/Main/Software, then click on the **Windows Installer** and download arduino (you don't have to donate). Then run the file you've downloaded and go through the installer without changing settings.
+4. Run the file that is downloaded. 
 
-5. Then travel to This PC>Local Disk (C:)>Program Files (x86)>Arduino>hardware>tools>avr, shift right click on bin, then press "copy as path".
+5. Go through the installer until you get to the installation manager.
 
-6. After that, press the windows key (opens search bar on left of taskbar) and type "path", click on the "edit system environment variables" option, then in the menu it brings up, click on "Environment Variables" button on the bottom right. Next in the System Variables box click on "Path" and then edit. After you bring up another menu, click on the "new" button and then ctrl+v (paste) into the text box that is brought up.
+6. Then click on the box next to mingw32-base-bin and click the "mark for installation" option. 
 
-7. After that make sure to press ok in all the menus, then install Atmel Flip from here: https://www.microchip.com/DevelopmentTools/ProductDetails/PartNO/FLIP. The link will take you to a website that has download options at the bottom, click on the download that says Java Runtime Environment included. Then run the file that is downloaded and move through the installer without changing anything. 
+7. Finally go to the installation tab in the top left and click "apply all changes" and then apply. 
 
-8. You're almost there! You need to install some drivers here: https://www.driverscape.com/download/atmega16u2 (make sure not to click on the add!). Next extract the file, then plug the arduino in, then connect the two pins closest to the reset button with a jumper cable.
+8. Next go to https://www.arduino.cc/en/Main/Software, then click on the **Windows Installer** and download arduino (you don't have to donate). 
 
-9. Then go to device manager, go to other devices and right click on unidentified device, next click update driver and navigate to the driver you just installed and open it.
+9. Run the file you've downloaded and go through the installer without changing settings.
 
-10. After that, go to This PC>Local Disk (C:)>MinGW>bin and find the mingw32-make.exe file, shift right click and click copy as path.
+10. Then travel to This PC>Local Disk (C:)>Program Files (x86)>Arduino>hardware>tools>avr, shift right click on bin, then press "copy as path".
 
-11. Next, go to your folder with the dayskipper files in it, click on the bar with the path and type cmd, when command prompt opens press ctrl+v (paste) and then press enter.
+11. After that, press the windows key (opens search bar on left of taskbar) and type "path". 
 
-12. Finally, open up flip, press ctrl+u, then enter, then press ctrl+l and in the window it brings up navigate to the dayskipper folder, and press on the joystick.hex file, finally press run, and it is ready to go!
+12. Click on the "edit system environment variables" option, then in the menu it brings up, click on "Environment Variables" button on the bottom right. 
+
+13. Next in the System Variables box click on "Path" and then edit. 
+
+14. After you bring up another menu, click on the "new" button and then ctrl+v (paste) into the text box that is brought up.
+
+15. After that make sure to press ok in all the menus, then install Atmel Flip from here: https://www.microchip.com/DevelopmentTools/ProductDetails/PartNO/FLIP. 
+
+16. The link will take you to a website that has download options at the bottom, click on the download that says Java Runtime Environment included. 
+
+17. Then run the file that is downloaded and move through the installer without changing anything. 
+
+18. You're almost there! You need to install some drivers here: https://www.driverscape.com/download/atmega16u2 (make sure not to click on the add!). 
+
+19. Next extract the file, then plug the arduino in, then connect the two pins closest to the reset button with a jumper cable.
+
+20. Then go to device manager>other devices and right click on unidentified device. 
+
+21. Next click update driver and navigate to the driver you just installed and open it.
+
+22. After that, go to This PC>Local Disk (C:)>MinGW>bin and find the mingw32-make.exe file, shift right click and click copy as path.
+
+23. Next, go to your folder with the dayskipper files in it, click on the bar with the path and type cmd. 
+
+24. When command prompt opens press ctrl+v (paste) and then press enter.
+
+25. Next, open up flip, press ctrl+u, then enter. 
+
+26. Then press ctrl+l and in the window it brings up navigate to the dayskipper folder, and double click on the joystick.hex file.
+
+27. Finally press run, and it is ready to go!
 
 ##### Original instructions:
 You will need to set your Arduino in DFU mode, and flash its USB controller. (Note for Mac users - try brew to install the dfu-programmer with brew install dfu-programmer.) Setting an Arduino UNO R3 in DFU mode is quite easy, all you need is a jumper (the boards come with the needed pins in place). Please note that once the board is flashed, you will need to flash it back with the original firmware to make it work again as a standard Arduino. To compile this project you will need the AVR GCC Compiler and Tools. (Again for Mac users - try brew, adding the osx-cross/avr repository, all you need to do is to type brew tap osx-cross/avr and brew install avr-gcc.) Next, you need to grab the LUFA library: download and install it following the steps described for the Teensy 2.0++.
