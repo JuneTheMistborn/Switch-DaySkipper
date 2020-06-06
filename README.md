@@ -30,7 +30,7 @@ Now you should be ready to rock. Open a terminal window in the Switch-Fightstick
 
 #### Compiling and Flashing onto the Arduino UNO R3
 ##### My experience:
-Firstly you need to create a folder where you are going to work with this project, then download the above files, and extract them into your premade folder. 
+Firstly you need to create a folder where you are going to work with this project, then download the above files, and extract them into your premade folder. Then extract the LUFA zip into the folder you created (not the 
 
 ##### Original instructions:
 You will need to set your Arduino in DFU mode, and flash its USB controller. (Note for Mac users - try brew to install the dfu-programmer with brew install dfu-programmer.) Setting an Arduino UNO R3 in DFU mode is quite easy, all you need is a jumper (the boards come with the needed pins in place). Please note that once the board is flashed, you will need to flash it back with the original firmware to make it work again as a standard Arduino. To compile this project you will need the AVR GCC Compiler and Tools. (Again for Mac users - try brew, adding the osx-cross/avr repository, all you need to do is to type brew tap osx-cross/avr and brew install avr-gcc.) Next, you need to grab the LUFA library: download and install it following the steps described for the Teensy 2.0++.
