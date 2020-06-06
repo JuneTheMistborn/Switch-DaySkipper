@@ -1,5 +1,5 @@
 # Switch DaySkipper
-Switch DaySkipper is code based off of bertrandom's snowball thrower, but modified to skip a given amount of days in the switch system to perform glitches across all sorts of games. **However, note that currently it is tuned to the _mm/dd/yy_ format, I know it's dumb, and I am working on adding the _dd/mm/yy_ format.** The system does not currently work with numbers exceeding 9,223,372,036,854,775,807, but you would die billions of years before it stopped skipping if you set it that high.
+Switch DaySkipper is code based off of bertrandom's snowball thrower, but modified to skip a given amount of days in the switch system to perform glitches across all sorts of games. **However, note that currently it is tuned to the _mm/dd/yy_ format, but I am working on adding the _dd/mm/yy_ format.** The system does not currently work with numbers exceeding 9,223,372,036,854,775,807, but you would die billions of years before it stopped skipping if you set it that high.
 
 ### How to use:
 #### Setting the # of days you skip
