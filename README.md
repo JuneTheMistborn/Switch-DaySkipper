@@ -61,7 +61,7 @@ Now you should be ready to rock. Open a terminal window in the Switch-Fightstick
 
 10. Run the file you've downloaded and go through the installer without changing settings.
 
-11. Using windows explorer, travel to This PC>Local Disk (C:)>Program Files (x86)>Arduino>hardware>tools>avr, shift right click on bin, then press "copy as path".
+11. Using windows explorer, travel to This PC>Local Disk (C:)>Program Files (x86)>Arduino>hardware>tools>avr, **shift right click** on bin, then press "copy as path".
 
 12. After that, press the windows key (opens search bar on left of taskbar) and type "path". 
 
