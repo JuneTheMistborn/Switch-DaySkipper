@@ -45,7 +45,7 @@ Now you should be ready to rock. Open a terminal window in the Switch-Fightstick
 
 2. Download the above files and extract them into your premade folder (you may want to create a copy so you don't have to download the files everytime you want to change the days skipped).
 
-2. One of the files that you just extracted is lufa-LUFA-170418.zip, extract it into the folder you created (not the Switch-DaySkipper directory from what you just downloaded). 
+2. One of the files in the Switch-Dayskipper-Master folder is lufa-LUFA-170418.zip, navigate into Switch-DaySkipper-Master and extract lufa-LUFA-170418.zip into the folder you originally created (not the Switch-DaySkipper directory from what you just downloaded). 
 
 3. Now you must download mingw32 from here: http://osdn.net/projects/mingw/downloads/68260/mingw-get-setup.exe/ (it will auto download when you click on the link).
 
@@ -55,7 +55,7 @@ Now you should be ready to rock. Open a terminal window in the Switch-Fightstick
 
 6. Then click on the box next to mingw32-base-bin and click the "mark for installation" option. 
 
-7. Finally go to the installation tab in the top left and click "apply all changes" and then apply. 
+7. Next go to the installation menu in the top left and click "apply all changes" and then apply. You can now close the dialogue and installation manager. 
 
 8. Next go to https://www.arduino.cc/en/Main/Software, then click on the **Windows Installer** and download arduino (you don't have to donate). 
 
