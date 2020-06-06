@@ -40,7 +40,7 @@ Now you should be ready to rock. Open a terminal window in the Switch-Fightstick
 
 5. Then travel to This PC>Local Disk (C:)>Program Files (x86)>Arduino>hardware>tools>avr, shift right click on bin, then press "copy as path".
 
-6 After that, press the windows key (opens search bar on left of taskbar) and type "path", click on the "edit system environment variables" option, then in the menu it brings up, click on "Environment Variables" button on the bottom right. Next in the System Variables box click on "Path" and then edit. After you bring up another menu, click on the "new" button and then ctrl+v (paste) into the text box that is brought up.
+6. After that, press the windows key (opens search bar on left of taskbar) and type "path", click on the "edit system environment variables" option, then in the menu it brings up, click on "Environment Variables" button on the bottom right. Next in the System Variables box click on "Path" and then edit. After you bring up another menu, click on the "new" button and then ctrl+v (paste) into the text box that is brought up.
 
 7. After that make sure to press ok in all the menus, then install Atmel Flip from here: https://www.microchip.com/DevelopmentTools/ProductDetails/PartNO/FLIP. The link will take you to a website that has download options at the bottom, click on the download that says Java Runtime Environment included. Then run the file that is downloaded and move through the installer without changing anything. 
 
