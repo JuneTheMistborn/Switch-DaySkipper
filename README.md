@@ -48,7 +48,7 @@ Now you should be ready to rock. Open a terminal window in the Switch-Fightstick
 
 1. Create a folder where you are going to work with this project. 
 
-2. Download the above files and extract them into your premade folder (you may want to create a copy so you don't have to download the files everytime you want to change the days skipped). Refer to [this section](README.md#Setting the # of days to skip) to set the number of days you want to skip.
+2. Download the above files and extract them into your premade folder (you may want to create a copy so you don't have to download the files everytime you want to change the days skipped). Refer to [this section](#setting-the--of-days-to-skip) to set the number of days you want to skip.
 
 3. One of the files in the Switch-Dayskipper-Master folder is lufa-LUFA-170418.zip, navigate into Switch-DaySkipper-Master and extract lufa-LUFA-170418.zip into the folder you originally created (not the Switch-DaySkipper directory from what you just downloaded). 
 
