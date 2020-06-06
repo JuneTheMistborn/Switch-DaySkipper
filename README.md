@@ -101,7 +101,7 @@ Now you should be ready to rock. Open a terminal window in the Switch-Fightstick
 
 27. Now press ctrl+U then enter, next press ctrl+L and in the window it brings up navigate to the Switch-DaySkipper-Master folder, and double click on the joystick.hex file.
 
-28. Finally press run, and it is ready to go! Just unplug the arduino, close flip and refer to 
+28. Finally press run, and it is ready to go! Just unplug the arduino, close flip and refer to [this section](README.md#actually-using-it)
 
 ##### Original instructions:
 You will need to set your Arduino in DFU mode, and flash its USB controller. (Note for Mac users - try brew to install the dfu-programmer with brew install dfu-programmer.) Setting an Arduino UNO R3 in DFU mode is quite easy, all you need is a jumper (the boards come with the needed pins in place). Please note that once the board is flashed, you will need to flash it back with the original firmware to make it work again as a standard Arduino. To compile this project you will need the AVR GCC Compiler and Tools. (Again for Mac users - try brew, adding the osx-cross/avr repository, all you need to do is to type brew tap osx-cross/avr and brew install avr-gcc.) Next, you need to grab the LUFA library: download and install it following the steps described for the Teensy 2.0++.
