@@ -2,7 +2,7 @@
 Switch DaySkipper is code based off of bertrandom's snowball thrower, but modified to skip a given amount of days in the switch system to perform glitches across all sorts of games. **Please note that it is currently tuned to the _mm/dd/yy_ format, but I am working on adding the _dd/mm/yy_ format.** The system does not currently work with numbers exceeding 9,223,372,036,854,775,807, but you would die billions of years before it stopped skipping if you set it that high.
 
 ### How to use:
-#### Setting the # of days you skip
+#### Setting the # of days to skip
 1. Go into the Joystick.c file. 
 
 2. Find the variable at the top that is called "wantDaysSkip" and modify that line to:
@@ -40,14 +40,15 @@ Next, you need to grab the LUFA library. You can download it in a zipped folder 
 Now you should be ready to rock. Open a terminal window in the Switch-Fightstick directory, type make, and hit enter to compile. If all goes well, the printout in the terminal will let you know it finished the build! Follow the directions on flashing Joystick.hex onto your Teensy, which can be found page where you downloaded the Teensy Loader application.
 
 #### Compiling and Flashing onto the Arduino UNO R3
-##### My experience (windows):
 ###### You need:
 *An arduino uno r3
 *A cable to connect the uno to the computer and switch
 *A jumper wire
+##### My experience (windows):
+
 1. Create a folder where you are going to work with this project. 
 
-2. Download the above files and extract them into your premade folder (you may want to create a copy so you don't have to download the files everytime you want to change the days skipped).
+2. Download the above files and extract them into your premade folder (you may want to create a copy so you don't have to download the files everytime you want to change the days skipped). Refer to [this section](README.md#Setting the # of days to skip) to set the number of days you want to skip.
 
 3. One of the files in the Switch-Dayskipper-Master folder is lufa-LUFA-170418.zip, navigate into Switch-DaySkipper-Master and extract lufa-LUFA-170418.zip into the folder you originally created (not the Switch-DaySkipper directory from what you just downloaded). 
 
