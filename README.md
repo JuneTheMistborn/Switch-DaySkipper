@@ -12,11 +12,11 @@ long wantDaysSkip = (number of days you want to skip);
 #### Actually using it
 1. Navigate to the switch's Date and Time settings under System Settings>System>Date and Time.
 
-2. Turn off the Synchronize Clock via Internet option in Date and Time.
+1. Turn off the Synchronize Clock via Internet option in Date and Time.
 
-3. Next, click on the Date and Time option, and ***change the month and day to January 1st***.
+1. Next, click on the Date and Time option, and ***change the month and day to January 1st***.
 
-4. Finally, navigate to the ok button, and make sure that it is highlighted, plug the controller in (directly to the switch or through the dock) and it should start skipping days.
+1. Finally, navigate to the ok button, and make sure that it is highlighted, plug the controller in (directly to the switch or through the dock) and it should start skipping days.
 
 (these instructions are from the [project](https://github.com/bertrandom/snowball-thrower) I have borrowed this from.)
 ## Wait, what?
