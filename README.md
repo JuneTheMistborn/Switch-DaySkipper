@@ -88,7 +88,7 @@ The original instructions weren't very clear, so I figured out a process in wind
 
 20. Next extract the file (it doesn't matter where).
 
-21. Then plug the arduino in, then connect the two pins closest to the reset button with a jumper cable.
+21. Then plug the arduino in, then briefly connect the two pins closest to the reset button with a jumper cable (you will know when to disconnect when the windows disconected device sound plays).
 
 21. Then go to device manager>other devices and right click on unknown device. 
 
